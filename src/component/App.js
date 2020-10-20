@@ -20,7 +20,7 @@ class App extends Component {
   };
   async componentDidMount() {
     //call backend
-    const { data } = await axios.get("http://localhost:3000/products");
+    const { data } = await axios.get(/*"http://localhost:3000/products"*/ 'https://my-json-server.typicode.com/khaledhelmyg/react/products');
     //set state
     this.setState({ products: data });
     // const promise=fetch('https://jsonplaceholder.typicode.com/posts')
