@@ -68,7 +68,7 @@ class Login extends Component {
         <h1>login</h1> 
 
         <form
-         onSubmit={this.handlesubmit} action={'https://send.pageclip.co/6MkhjfZ20q1ACFUNT6X1ONzKcgKilH8v'}>
+         onSubmit={this.handlesubmit}>
         <div className="form-group">
             <label htmlFor="username">Email address</label>
             <input 
@@ -94,7 +94,7 @@ class Login extends Component {
             className="form-control" 
             />
         </div>
-        <div /*className="alart alart-danger"*/className = {"pageclip-form__submit"} >{this.state.errors.password}</div>
+        <div className="alart alart-danger" >{this.state.errors.password}</div>
         <button type="submit" className="btn btn-primary">Submit</button>
         </form>
        </>
