@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "mirynda",
+      "price": "4",
+      "count": 0,
+      "isInCart": false,
+      "id": 3
+    },
+    {
+      "name": "fresh water ",
+      "price": "3",
+      "id": 4,
+      "count": 0,
+      "isInCart": false
+    },
+    {
+      "name": "mirinda",
+      "price": "4",
+      "id": 5,
+      "count": 0,
+      "isInCart": false
+    },
+    {
+      "name": "shouips",
+      "price": "7",
+      "count": 0,
+      "isInCart": false,
+      "id": 6
+    }
+  ]
+}
