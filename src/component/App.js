@@ -57,7 +57,7 @@ class App extends Component {
      this.setState({ products });
      try{
       //call backend
-    await axios.delete('http://localhost:3000/products/'+product.id);
+    await axios.delete(/*'http://localhost:3000/products/'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products"+product.id);
      }catch(ex){
        toast("cant delete");
        this.setState({products:oldData})
