@@ -9,7 +9,7 @@ class AddProduct extends Component {
  async componentDidMount () {
     const id=this.props.match.params.id;
     if(id !=="new"){
-      const {data}=await axios.get('http://localhost:3000/products/'+id);
+      const {data}=await axios.get(/*'http://localhost:3000/products/'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products"+id);
       //clone state
       const state={...this.state};
       //edit
@@ -27,7 +27,7 @@ class AddProduct extends Component {
       //create object to add all state and anthe prametars 
       const obj={...this.state, count: 0,isInCart: false};
       //calll backend
-      await axios.post('http://localhost:3000/products',obj);
+      await axios.post(/*'http://localhost:3000/products'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products",obj);
       console.log('submint');
     }else{
        //edit
@@ -35,7 +35,7 @@ class AddProduct extends Component {
        const obj={...this.state ,count:0 , isInCart:false};
        //delet id to not send to the server tow id's one from url and anther from object
        delete obj.id; 
-       await axios.put('http://localhost:3000/products/'+ this.state.id,obj);
+       await axios.put(/*'http://localhost:3000/products/'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products"+ this.state.id,obj);
     }
     //use replce to not return the user back to add product page
     this.props.history.replace("/admin")
