@@ -20,7 +20,8 @@ class App extends Component {
   };
   async componentDidMount() {
     //call backend
-    const { data } = await axios.get(/*"http://localhost:3000/products"*/ 'https://my-json-server.typicode.com/khaledhelmyg/react/products');
+    const { data } = await axios.get("https://my-json-server.typicode.com/khaledhelmyg/react/products/");
+    /*"http://localhost:3000/products"*/
     //set state
     this.setState({ products: data });
     // const promise=fetch('https://jsonplaceholder.typicode.com/posts')
@@ -57,7 +58,8 @@ class App extends Component {
      this.setState({ products });
      try{
       //call backend
-    await axios.delete(/*'http://localhost:3000/products/'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products"+product.id);
+    await axios.delete("https://my-json-server.typicode.com/khaledhelmyg/react/products/"+product.id);
+       /*'http://localhost:3000/products/'*/
      }catch(ex){
        toast("cant delete");
        this.setState({products:oldData})
