@@ -1,0 +1,185 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"startGame"
+			],
+			[
+				"f",
+				"function\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/abker/AppData/Local/Microsoft/Windows/INetCache/IE/1I0BQSZE/1588639010[1].docx",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/main.lua",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/build.settings",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/boing-1.wav",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/config.lua",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/gametitle.png",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/blast.mp3",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/background.png",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/beetleship.png",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/octopus.png",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/planet.png",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/rocketship.png",
+		"/C/Users/abker/Downloads/2013-11-17_09-00-26__Attack_of_the_Cuteness/Attack of the Cuteness/wahwahwah.mp3"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fend-refresh-2019.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

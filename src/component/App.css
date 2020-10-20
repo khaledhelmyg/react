@@ -1,0 +1,17 @@
+*{
+    background-color: rgba(220,40,210,1);
+    margin: 0rem;
+}
+h1{
+    background-color: #2e8b5778;
+}
+#h1{
+    margin: 0;
+    padding: 10px 0 15px;
+}
+.row.pb{
+    background-color: silver !important;
+}
+#t{
+    margin: 0;
+}
