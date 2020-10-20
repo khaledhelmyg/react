@@ -28,7 +28,8 @@ class AddProduct extends Component {
       //create object to add all state and anthe prametars 
       const obj={...this.state, count: 0,isInCart: false};
       //calll backend
-      await axios.post(/*'http://localhost:3000/products'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products",obj);
+      await axios.post("https://my-json-server.typicode.com/khaledhelmyg/react/products/",obj);
+      /*'http://localhost:3000/products'*/
       console.log('submint');
     }else{
        //edit
