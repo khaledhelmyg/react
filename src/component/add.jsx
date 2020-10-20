@@ -9,7 +9,8 @@ class AddProduct extends Component {
  async componentDidMount () {
     const id=this.props.match.params.id;
     if(id !=="new"){
-      const {data}=await axios.get(/*'http://localhost:3000/products/'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products"+id);
+      const {data}=await axios.get("https://my-json-server.typicode.com/khaledhelmyg/react/products/"+id);
+      /*'http://localhost:3000/products/'*/
       //clone state
       const state={...this.state};
       //edit
@@ -35,7 +36,8 @@ class AddProduct extends Component {
        const obj={...this.state ,count:0 , isInCart:false};
        //delet id to not send to the server tow id's one from url and anther from object
        delete obj.id; 
-       await axios.put(/*'http://localhost:3000/products/'*/"https://my-json-server.typicode.com/khaledhelmyg/react/products"+ this.state.id,obj);
+       await axios.put("https://my-json-server.typicode.com/khaledhelmyg/react/products/"+ this.state.id,obj);
+      /*'http://localhost:3000/products/'*/
     }
     //use replce to not return the user back to add product page
     this.props.history.replace("/admin")
